@@ -24,7 +24,7 @@ class DatabaseSeeder extends Seeder
          'password' => bcrypt('admin1234'),
        ]);
 
-       $admin->assignRole('Admin');
+       $admin->assignRole('Admin'); 
 
        $member = User::create([
         'name' => 'Member',
